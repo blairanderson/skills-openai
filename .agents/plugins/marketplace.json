@@ -1,0 +1,140 @@
+{
+  "name": "blairanderson-skills",
+  "interface": {
+    "displayName": "Blair Anderson Skills"
+  },
+  "plugins": [
+    {
+      "name": "code-spec",
+      "source": {
+        "source": "local",
+        "path": "./plugins/code-spec"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Planning"
+    },
+    {
+      "name": "rails-authentication",
+      "source": {
+        "source": "local",
+        "path": "./plugins/rails-authentication"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "hotfix",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hotfix"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "todo",
+      "source": {
+        "source": "local",
+        "path": "./plugins/todo"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "frontend-rails",
+      "source": {
+        "source": "local",
+        "path": "./plugins/frontend-rails"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "fix-last-run",
+      "source": {
+        "source": "local",
+        "path": "./plugins/fix-last-run"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "blue-ocean",
+      "source": {
+        "source": "local",
+        "path": "./plugins/blue-ocean"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Planning"
+    },
+    {
+      "name": "document-feature",
+      "source": {
+        "source": "local",
+        "path": "./plugins/document-feature"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "organizer",
+      "source": {
+        "source": "local",
+        "path": "./plugins/organizer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "rails-conductor-setup-config",
+      "source": {
+        "source": "local",
+        "path": "./plugins/rails-conductor-setup-config"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    },
+    {
+      "name": "diff-review",
+      "source": {
+        "source": "local",
+        "path": "./plugins/diff-review"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Development"
+    }
+  ]
+}
