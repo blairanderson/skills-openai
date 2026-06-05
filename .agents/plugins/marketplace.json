@@ -41,10 +41,10 @@
       "category": "Development"
     },
     {
-      "name": "todo",
+      "name": "issues",
       "source": {
         "source": "local",
-        "path": "./plugins/todo"
+        "path": "./plugins/issues"
       },
       "policy": {
         "installation": "AVAILABLE",
